@@ -1,0 +1,111 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-window {
+    background-color: #edf0f5;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 #333;
+}
+
+
+.message-display {
+    height: 400px;
+    overflow-y: scroll;
+    margin-top: 50px;
+
+}
+
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message-info {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+        vertical-align: top;
+}
+
+.message img {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.message-text {
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    border-radius: 0px 12px 12px 12px;
+    display: flex;
+    max-width: 50%;
+    min-width: 400px;
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+
+
+
+
+.author {
+    font-weight: bold;
+    font-size: larger;
+    
+    
+}
+.time{
+    margin-left: 8px;
+    color: gray;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 #333;
+}
+.input-container {
+    display: inline-block;
+    width: 100%;
+}
+.emoji{
+    height: 35px;
+    width: 35px;
+     display: inline-block;
+      border:none;
+    
+
+
+}
+.Like-Style {
+    float: right;
+    border: none;
+    height: 20px;
+    width: 40px;
+}
+.buttonStyles {
+    background-color: #619df3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
